@@ -1,0 +1,12 @@
+﻿D:/qt2/Tools/mingw1310_64/bin/mingw32-make -f Makefile.Debug
+mingw32-make[1]: Entering directory 'D:/qtxiangmu/202609141857264608(1)/build'
+mingw32-make[1]: Leaving directory 'D:/qtxiangmu/202609141857264608(1)/build'
+mingw32-make.exe : mingw32-make[1]: *** No rule to make target '../ui_qwmainwind.h', needed by 'debug/qwmainwind.o'.  S
+top.
+所在位置 行:3 字符: 1
++ & "D:\qt2\Tools\mingw1310_64\bin\mingw32-make.exe" -j4 2>&1 | Out-Fil ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (mingw32-make[1]...wind.o'.  Stop.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+mingw32-make: *** [Makefile:45: debug] Error 2

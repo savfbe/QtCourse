@@ -1,0 +1,16 @@
+﻿D:/qt2/Tools/mingw1310_64/bin/mingw32-make -f Makefile.Debug
+mingw32-make[1]: Entering directory 'D:/qtxiangmu/202609141857264608(1)/build'
+g++ -c -fno-keep-inline-dllexport -g -Wall -Wextra -Wextra -fexceptions -mthreads -DUNICODE -D_UNICODE -DWIN32 -DMINGW_HAS_SECURE_API=1 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -DQT_NEEDS_QMAIN -I../../202609141857264608(1) -I. -I../../../qt2/6.11.2/mingw_64/include -I../../../qt2/6.11.2/mingw_64/include/QtWidgets -I../../../qt2/6.11.2/mingw_64/include/QtGui -I../../../qt2/6.11.2/mingw_64/include/QtCore -Idebug -I. -I/include -I../../../qt2/6.11.2/mingw_64/mkspecs/win32-g++  -o debug\qwmainwind.o ..\qwmainwind.cpp
+g++ -Wl,-subsystem,windows -mthreads -o debug\samp2_4.exe debug/main.o debug/qwmainwind.o debug/qrc_res.o debug/moc_qwmainwind.o D:\qt2\6.11.2\mingw_64\lib\libQt6Widgets.a D:\qt2\6.11.2\mingw_64\lib\libQt6Gui.a D:\qt2\6.11.2\mingw_64\lib\libQt6Core.a debug\samp2_4_resource_res.o -lmingw32 D:\qt2\6.11.2\mingw_64\lib\libQt6EntryPoint.a -lshell32  
+mingw32-make.exe : D:/qt2/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bi
+n/ld.exe: cannot open output file debug\samp2_4.exe: Permission denied
+所在位置 行:3 字符: 1
++ & "D:\qt2\Tools\mingw1310_64\bin\mingw32-make.exe" -j4 2>&1 | Out-Fil ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:/qt2/Tools/mi...rmission denied:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+collect2.exe: error: ld returned 1 exit status
+mingw32-make[1]: *** [Makefile.Debug:74: debug/samp2_4.exe] Error 1
+mingw32-make[1]: Leaving directory 'D:/qtxiangmu/202609141857264608(1)/build'
+mingw32-make: *** [Makefile:45: debug] Error 2

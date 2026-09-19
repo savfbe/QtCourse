@@ -1,0 +1,4 @@
+﻿D:/qt2/Tools/mingw1310_64/bin/mingw32-make -f Makefile.Debug
+mingw32-make[1]: Entering directory 'D:/qtxiangmu/202609141857264608(1)/build'
+g++ -Wl,-subsystem,windows -mthreads -o debug\samp2_4.exe debug/main.o debug/qwmainwind.o debug/qrc_res.o debug/moc_qwmainwind.o D:\qt2\6.11.2\mingw_64\lib\libQt6Widgets.a D:\qt2\6.11.2\mingw_64\lib\libQt6Gui.a D:\qt2\6.11.2\mingw_64\lib\libQt6Core.a debug\samp2_4_resource_res.o -lmingw32 D:\qt2\6.11.2\mingw_64\lib\libQt6EntryPoint.a -lshell32  
+mingw32-make[1]: Leaving directory 'D:/qtxiangmu/202609141857264608(1)/build'
